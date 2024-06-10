@@ -27,7 +27,7 @@ const user = process.env.MONGODB_USER;
 const password = process.env.MONGODB_PASSWORD;
 const nameCollection = process.env.MONGODB_NAMECOLLECTION;
 
-const url = `mongodb+srv://${user}:${password}@diego.wmp7dvz.mongodb.net/${nameCollection}?retryWrites=true&w=majority`;
+const url = `mongodb+srv://${user}:${password}@atlascluster.yavalmu.mongodb.net/${nameCollection}?retryWrites=true&w=majority`;
 
 mongoose.connect(url);
 
